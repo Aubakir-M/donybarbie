@@ -1,0 +1,43 @@
+
+body {
+   background-color: black;
+}
+
+a {
+   text-decoration: none;
+   text-align: center;
+}
+
+.container {
+   margin-top: 450px
+}
+
+h1 {
+   color: rgb(221, 75, 226);
+}
+
+.img-container {
+   display: block;
+   text-align: center;
+}
+
+img {
+   width: 650px;
+}
+
+audio {
+   display: block;
+   padding-left: 750px;
+}
+
+@media (max-width: 800px) {
+   img {
+      width: 550px;
+      padding-left: 150px;
+   }
+
+   audio {
+      display: block;
+      padding-left: 250px;
+   }
+}
